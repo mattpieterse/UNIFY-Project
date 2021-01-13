@@ -1,5 +1,7 @@
 # AHK Scripts
 
+![GitHub repo size](https://img.shields.io/github/repo-size/mpiet-za/UNIFY-Project?color=green&label=REPOSITORY&logo=git&logoColor=white&style=for-the-badge)
+
 **This collection of scripts was written and compiled by Matthew Pieterse.**
 
 All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
