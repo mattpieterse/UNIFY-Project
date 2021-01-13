@@ -1,3 +1,5 @@
-#SingleInstance, Force
-SendMode Input
-SetWorkingDir, %A_ScriptDir%
+#NoEnv
+#NoTrayIcon
+#SingleInstance, force
+
+SetWorkingDir %A_ScriptDir%
