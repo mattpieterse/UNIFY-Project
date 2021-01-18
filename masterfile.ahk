@@ -4,73 +4,79 @@
 
 SetWorkingDir %A_ScriptDir%
 
-#Include, %A_ScriptDir%\Functions\func-KillProcess.ahk
+#Include %A_ScriptDir%\Functions\func-Tasker.ahk
 
 #a::
-    Run %A_ScriptDir%\Assets\Shortcuts\Autohotkey.lnk
+    Shortcut("Autohotkey.lnk")
     Return
 #b::
-    Run %A_ScriptDir%\Assets\Shortcuts\Bitwarden.lnk
+    Shortcut("Bitwarden.lnk")
     Return
 #c::
+    WinExist("A")
+    WinGetPos,,, sizeX, sizeY
+    WinMove, (A_ScreenWidth/2)-(sizeX/2), (A_ScreenHeight/2)-(sizeY/2)
     Return
 #d::
     Return
-#e::
-    Run %A_ScriptDir%\Assets\Shortcuts\Explorer.lnk
+#e:: ; FIXME:
+    Shortcut("Explorer.lnk")
     Return
 #f::
-    Run %A_ScriptDir%\Assets\Shortcuts\Firefox.lnk
+    Shortcut("Firefox.lnk")
     Return
 #g::
     Return
 #h::
     Return
 #i::
-    Run %A_ScriptDir%\Assets\Shortcuts\Settings.lnk
+    Shortcut("Settings.lnk")
     Return
 #j::
     Return
 #k::
-    Run %A_ScriptDir%\Assets\Shortcuts\Manager.lnk
+    Shortcut("Manager.lnk")
     Return
 #l::
     Return
 #m::
-    Run %A_ScriptDir%\Assets\Shortcuts\Spotify.lnk
+    Shortcut("Spotify.lnk")
     Return
 #n::
-    Run %A_ScriptDir%\Assets\Shortcuts\Code.lnk
+    Shortcut("Code.lnk")
     Return
 #o::
-    Run %A_ScriptDir%\Assets\Shortcuts\OBS.lnk
+    Shortcut("OBS.lnk")
     Return
 #p::
     Return
 #q::
-    Run %A_ScriptDir%\Assets\Shortcuts\Toggl.lnk
+    Shortcut("Toggl.lnk")
     Return
 #r::
-    Run %A_ScriptDir%\Assets\Shortcuts\Run.lnk
+    Shortcut("Run.lnk")
     Return
 #s::
-    Run %A_ScriptDir%\Assets\Shortcuts\Everything.lnk
+    Shortcut("Everything.lnk")
     Return
 #t::
-    Run %A_ScriptDir%\Assets\Shortcuts\Cmder.lnk
+    Shortcut("Cmder.lnk")
     Return
 #u::
     Return
 #v::
     Return
 #w::
-    Run %A_ScriptDir%\Assets\Shortcuts\Spy.lnk
+    Shortcut("Spy.lnk")
     Return
 #x::
     Return
 #y::
     Return
 #z::
+    Return
+#Esc:: ; WinMinimizeAll - WinMinimizeAllUndo
+    ComObjCreate("Shell.Application").ToggleDesktop()
     Return
 #Delete::
     FileRecycleEmpty 
