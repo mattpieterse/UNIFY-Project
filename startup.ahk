@@ -4,7 +4,7 @@
 
 SetWorkingDir %A_ScriptDir%
 
-#Include, %A_ScriptDir%\Functions\func-Tasker.ahk
+#Include %A_ScriptDir%\Functions\func-Tasker.ahk
 
 IniFile := A_ScriptDir . "\config.ini"
 
