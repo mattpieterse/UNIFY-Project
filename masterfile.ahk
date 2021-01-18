@@ -13,11 +13,16 @@ SetWorkingDir %A_ScriptDir%
     Shortcut("Bitwarden.lnk")
     Return
 #c::
+; Center the active window to the primary monitor.
     WinExist("A")
     WinGetPos,,, SizeX, SizeY
     WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)
     Return
-#d::
+#d:: 
+; Open the ditto clipboard manager dialog.
+    BlockInput On
+    Send #^+!=
+    BlockInput Off
     Return
 #e::
     Shortcut("Explorer.lnk")
@@ -75,9 +80,11 @@ SetWorkingDir %A_ScriptDir%
     Return
 #z::
     Return
-#Esc:: ; WinMinimizeAll - WinMinimizeAllUndo
+#Esc::
+; Toggle between desktop.
     ComObjCreate("Shell.Application").ToggleDesktop()
     Return
 #Delete::
+; Clear the system bin.
     FileRecycleEmpty 
     Return
