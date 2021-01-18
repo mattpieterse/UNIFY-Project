@@ -84,6 +84,10 @@ SetWorkingDir %A_ScriptDir%
 ; Toggle between desktop.
     ComObjCreate("Shell.Application").ToggleDesktop()
     Return
+#End::
+; Reload the script on this file.
+    Reload
+    Return
 #Delete::
 ; Clear the system bin.
     FileRecycleEmpty 
