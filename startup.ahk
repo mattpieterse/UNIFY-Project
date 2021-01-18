@@ -16,7 +16,7 @@ if !(FileExist(IniFile)) {
     IniRead, I_Delay, % IniFile, Settings, DelayAmmount
     if (I_Active == "true")
         Sleep I_Delay
-    executeHitlist(x)
+    ExecuteHitlist(x)
     Run %A_ScriptDir%\masterfile.ahk
     ExitApp
 }
