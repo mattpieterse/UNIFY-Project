@@ -76,8 +76,7 @@ SetWorkingDir %A_ScriptDir%
 #z::
     Return
 #Esc:: ; WinMinimizeAll - WinMinimizeAllUndo
-    ;ComObjCreate("Shell.Application").ToggleDesktop()
-    if WinExist()
+    ComObjCreate("Shell.Application").ToggleDesktop()
     Return
 #Delete::
     FileRecycleEmpty 
