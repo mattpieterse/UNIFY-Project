@@ -4,6 +4,11 @@
 
 SetWorkingDir %A_ScriptDir%
 
+Shortcut(Target) {
+    Run %A_ScriptDir%\Assets\Shortcuts\%Target%
+    Return
+}
+
 ExecuteHit(Target) {
     Process, Close, %Target%
     Return
@@ -15,10 +20,5 @@ ExecuteHitlist(Target) {
   ; Process, Close, process_name2.exe
   ; ExitApp
     Run %A_ScriptDir%\Assets\Development\Hitlist.ahk
-    Return
-}
-
-Shortcut(Target) {
-    Run %A_ScriptDir%\Assets\Shortcuts\%Target%
     Return
 }
