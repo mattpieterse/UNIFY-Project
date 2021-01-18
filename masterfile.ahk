@@ -14,12 +14,12 @@ SetWorkingDir %A_ScriptDir%
     Return
 #c::
     WinExist("A")
-    WinGetPos,,, sizeX, sizeY
-    WinMove, (A_ScreenWidth/2)-(sizeX/2), (A_ScreenHeight/2)-(sizeY/2)
+    WinGetPos,,, SizeX, SizeY
+    WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)
     Return
 #d::
     Return
-#e:: ; FIXME:
+#e::
     Shortcut("Explorer.lnk")
     Return
 #f::
@@ -76,7 +76,8 @@ SetWorkingDir %A_ScriptDir%
 #z::
     Return
 #Esc:: ; WinMinimizeAll - WinMinimizeAllUndo
-    ComObjCreate("Shell.Application").ToggleDesktop()
+    ;ComObjCreate("Shell.Application").ToggleDesktop()
+    if WinExist()
     Return
 #Delete::
     FileRecycleEmpty 
