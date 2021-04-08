@@ -5,7 +5,7 @@ All scripts in this `repository` are designed to work together and may depend on
 ![Readme](https://readme.com/static/brandkit/readme-blue.png)
 
 ## About
-The UNIFY project is a kludge of useful, open source and freely licensed scripts designed to work together with the goal of optimizing the user experiences and unlocking the true productive capabilities of your machine. Fully customizable and requiring only one click to get started, starting up as your machine boots so you can set and forget it, no more hassle with all the convenience of an elevated control over your experience!
+The `UNIFY project` is a kludge of useful, open source and freely licensed scripts designed to work together with the goal of optimizing the user experiences and unlocking the true productive capabilities of your machine. Fully customizable and requiring only one click to get started, commencing up as your machine boots so you can set it and forget it, no more hassle - with all the convenience of an elevated control over your user experience!
 ## Contributing
 Pull requests are welcome, although I cannot guarantee that it will be read or accepted. For major changes, please open an issue first to discuss what you would like to change.
 ## Licensing
