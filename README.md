@@ -25,4 +25,5 @@ Please make sure to update tests as appropriate.
 
 ## Licensing
 This repository uses the [GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.html) license.
-![Licence](https://www.gnu.org/graphics/license-logos-by-christian-candena-cc-by.png)
+
+![Licence](https://www.gnu.org/graphics/gplv3-127x51.png)
