@@ -1,6 +1,6 @@
 # AHK Scripts
 
-![GitHub repo size](https://img.shields.io/github/repo-size/mpiet-za/UNIFY-Project?color=green&label=REPOSITORY&logo=git&logoColor=white&style=for-the-badge)
+![GitHub Badge](https://img.shields.io/github/repo-size/mpiet-za/UNIFY-Project?color=green&label=REPOSITORY&logo=git&logoColor=white&style=for-the-badge)
 
 **This collection of scripts was written and compiled by Matthew Pieterse.**
 
