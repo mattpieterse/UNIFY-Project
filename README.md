@@ -33,7 +33,7 @@ Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) 
 
 *Remember that you can always opt for a one-time payment option at the support tab!*
 ### Contributing
-Feature requests and bug reports are welcome, feel free to leave a report detailing the issue and it will be seen to as soon as posssible.
+Feature requests and bug reports are welcome, feel free to leave a report detailing the issue and it will be seen to as soon as posssible, during the work week.
 
 *Be sure to keep checking back up here for updates and roadmap changes!*
 ## Credits
