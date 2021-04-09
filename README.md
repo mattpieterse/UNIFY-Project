@@ -19,9 +19,8 @@ The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scr
 ### Social
 Follow my socials to keep up to date on the latest news.
 
-- [Example](http://example.com/)
-- [Example](http://example.com/)
-- [Example](http://example.com/)
+- [Twitter](http://example.com/)
+- [Instagram](http://example.com/)
 ### Donating
 Quick donations can be sent via [paypal](http://example.com/), or alternatively [buymeacoffee.com](https://www.buymeacoffee.com/).
 ###### Membership
@@ -35,7 +34,8 @@ Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) 
 *Remember that you can always opt for a one-time payment option at the support tab!*
 ### Contributing
 Feature requests and bug reports are welcome, feel free to leave a report detailing the issue and it will be seen to as soon as posssible.
-Be sure to keep checking back up here for updates and roadmap changes!
+
+*Be sure to keep checking back up here for updates and roadmap changes!*
 ## Credits
 ###### Software
 - [AutoHotkey](https://www.autohotkey.com/)
