@@ -54,4 +54,4 @@ This repository uses the [GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.
 >This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 ---
 Github [@mpiet-za](https://github.com/mpiet-za/) &nbsp;&middot;&nbsp;
-Email [@mpiet-za](mailto:1matthewpieterse@gmail.com)
+Email [1matthewpieterse@gmail.com](mailto:1matthewpieterse@gmail.com)
