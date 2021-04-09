@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="UNIFY" width="200"></a>
 </p>
 
 ## Brief
@@ -11,16 +11,34 @@ All scripts in this repository are designed to work together and may depend on e
   <a href="#download">Download</a>
 </p>
 
-
 ### Description
 The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scripts designed to work together with the goal of optimizing the user experiences and unlocking the true productive capabilities of your machine. Fully customizable and requiring only one click to get started, commencing up as your machine boots so you can set it and forget it, no more hassle - with all the convenience of an elevated control over your user experience!
 ## Download
 ## Support
-## Contributing
-Pull requests are welcome, although I cannot guarantee that it will be read or accepted. For major changes or feature requests, please open an issue first to discuss what you would like to modify.
+>Buy me a coffee or two to say thank you and show your interest on the project!
+### Social
+Follow my socials to keep up to date on the latest news.
+
+- [Example](http://example.com/)
+- [Example](http://example.com/)
+- [Example](http://example.com/)
+### Donating
+Quick donations can be sent via [paypal](http://example.com/), or alternatively [buymeacoffee.com](https://www.buymeacoffee.com/).
+###### Membership
+Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) to receive:
+- Early access to feature rich developer builds.
+- Membership only updates on roadmap progress and ideas in concept limbo.
+- Email notifications when updates drop.
+- High priority bug support and feature requests.
+- VIP role in the official discord server.
+
+*Remember that you can always opt for a one-time payment option at the support tab!*
+### Contributing
+Feature requests and bug reports are welcome, feel free to leave a report detailing the issue and it will be seen to as soon as posssible.
+Be sure to keep checking back up here for updates and roadmap changes!
 ## Credits
 ###### Software
-- [AutoHotkey](http://example.com/)
+- [AutoHotkey](https://www.autohotkey.com/)
 ###### Scripts
 - [Example](http://example.com/)
 - [Example](http://example.com/)
