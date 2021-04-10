@@ -6,10 +6,10 @@ SetWorkingDir %A_ScriptDir%
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
 
-IniFile := A_ScriptDir . "\_config.ini"
+IniFile := A_ScriptDir . "\config.ini"
 
 if !(FileExist(IniFile)) {
-    MsgBox, 262160, Unexpected Error, The configuration file could not be found.`n`n"%A_ScriptDir%\_config.ini"
+    MsgBox, 262160, Unexpected Error, The configuration file could not be found.`n`n"%A_ScriptDir%\config.ini"
     ExitApp
 } else {
     IniRead, I_Active, % IniFile, Settings, DelayStartup
