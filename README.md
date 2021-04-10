@@ -6,7 +6,7 @@
 
 >This collection of scripts was compiled by Matthew Pieterse.
 
-`This repository is not currently in a ready to release state, many files will not work and/or are incomplete.`
+`This repository is not currently in a ready to release stage, many files will not work and/or are incomplete. Do not attempt to use this repository in its current state for any purpose.`
 
 `Please return at a later date to see if a release version is avaliable.`
 
