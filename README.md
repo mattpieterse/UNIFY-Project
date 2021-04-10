@@ -6,9 +6,9 @@
 
 >This collection of scripts was compiled by Matthew Pieterse.
 
-`This repository is not currently in a ready to release stage, many files will not work and/or are incomplete. Do not attempt to use this repository in its current state for any purpose.`
-
-`Please return at a later date to see if a release version is avaliable.`
+<p align="center">
+  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/7W30ykX.png" alt="UNIFY" width="800"></a>
+</p>
 
 ###### Disclaimer
 
