@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="UNIFY" width="200"></a>
+  <a href=""><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="UNIFY" width="200"></a>
 </p>
 
 ## Brief
