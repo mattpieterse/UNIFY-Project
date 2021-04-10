@@ -1,11 +1,7 @@
 #
 
-![Header](https://i.imgur.com/839wpuz.png)
-
----
-
 <p align="center">
-  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="UNIFY" width="200"></a>
+  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/839wpuz.png" alt="UNIFY" width="800"></a>
 </p>
 
 ---
