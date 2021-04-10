@@ -32,6 +32,8 @@ The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scr
 
 >Buy me a coffee or two to say thank you and show your interest on the project!
 
+Need any help? Have a look at our [wiki](http://example.com/) for frequently asked questions.
+
 ### Social
 
 Follow my socials to keep up to date on the latest news.
