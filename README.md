@@ -14,17 +14,17 @@
 
 All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
 
-<p>
-  <a href="#download">Download</a>
-</p>
-
 ### Description
 
 The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scripts designed to work together with the goal of optimizing the user experiences and unlocking the true productive capabilities of your machine. Fully customizable and requiring only one click to get started, commencing up as your machine boots so you can set it and forget it, no more hassle - with all the convenience of an elevated control over your user experience!
 
 ### Navigate
 
-- [test](#credits)
+- [About](#brief)
+- [Download](#download)
+- [Contact](#support)
+- [Contributing](#contributing)
+- [Creadits](#credits)
 
 ## Download
 
