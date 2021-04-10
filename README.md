@@ -48,11 +48,11 @@ Quick donations can be sent via [paypal](http://example.com/), or alternatively 
 
 Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) to receive:
 
-- Early access to feature rich developer builds.
-- Membership-only updates on roadmap progress and ideas in concept limbo.
-- Email notifications whenever updates drop.
-- High priority bug support and feature requests.
-- VIP roles within the official discord server.
+- [x] Early access to feature rich developer builds.
+- [x] Membership-only updates on roadmap progress and ideas in concept limbo.
+- [x] Email notifications whenever updates drop.
+- [x] High priority bug support and feature requests.
+- [x] VIP roles within the official discord server.
 
 *Remember that you can always opt for a one-time payment option at the support tab!*
 
