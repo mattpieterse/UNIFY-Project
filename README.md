@@ -1,14 +1,17 @@
 #
 
 <p align="center">
-  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/839wpuz.png" alt="UNIFY" width="800"></a>
+  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/839wpuz.png" alt="Logo" width="800"></a>
 </p>
 
 ---
 
 ## Brief
 
-![Warning](https://i.imgur.com/7W30ykX.png)
+<p align="center">
+  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/7W30ykX.png" alt="Warning" width="800"></a>
+</p>
+
 
 ### Disclaimer
 
