@@ -12,8 +12,6 @@
 
 ## Brief
 
->This collection of scripts was compiled by Matthew Pieterse.
-
 ![Warning](https://i.imgur.com/7W30ykX.png)
 
 ### Disclaimer
@@ -73,7 +71,11 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 
 ## Credits
 
+**This collection of scripts was compiled by Matthew Pieterse.**
+
 ### Recognition
+
+A huge thanks to all the people involved in contributing their works to the project!
 
 #### Software
 
