@@ -1,3 +1,5 @@
+#
+
 <p align="center">
   <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="UNIFY" width="200"></a>
 </p>
@@ -6,11 +8,9 @@
 
 >This collection of scripts was compiled by Matthew Pieterse.
 
-<p align="center">
-  <a href=""><img src="https://i.imgur.com/7W30ykX.png" alt="UNIFY" width="800"></a>
-</p>
+![Warning](https://i.imgur.com/7W30ykX.png)
 
-###### Disclaimer
+### Disclaimer
 
 All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
 
@@ -46,7 +46,8 @@ Follow my socials to keep up to date on the latest news.
 ### Donating
 
 Quick donations can be sent via [paypal](http://example.com/), or alternatively [buymeacoffee.com](https://www.buymeacoffee.com/).
-###### Membership
+
+#### Membership
 
 Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) to receive:
 
@@ -66,11 +67,13 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 
 ## Credits
 
-###### Software
+### Recognition
+
+#### Software
 
 - [AutoHotkey](https://www.autohotkey.com/)
 
-###### Scripts
+#### Scripts
 
 - [Example](http://example.com/)
 - [Example](http://example.com/)
