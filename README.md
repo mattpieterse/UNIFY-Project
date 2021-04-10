@@ -24,7 +24,7 @@ The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scr
 - [Download](#download)
 - [Contact](#support)
 - [Contributing](#contributing)
-- [Creadits](#credits)
+- [Credits](#credits)
 
 ## Download
 
