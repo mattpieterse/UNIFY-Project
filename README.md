@@ -13,8 +13,6 @@
   <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/7W30ykX.png" alt="Warning" width="800"></a>
 </p>
 
----
-
 ### Disclaimer
 
 All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
