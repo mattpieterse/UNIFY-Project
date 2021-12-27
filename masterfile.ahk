@@ -15,8 +15,9 @@ SetWorkingDir %A_ScriptDir%
 #c::
 ; Center the active window to the primary monitor.
     WinExist("A")                                                           ; Detect the active window.
+    WinRestore, A                                                           ; Restore the active window.
     WinGetPos, PosX, PosY, SizeX, SizeY                                     ; Save window co-ordinates to variables.
-    WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)      ; Move the window to the new position.
+    WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)      ; Relocate the window to the new position.
     Return
 #d:: 
 ; Open the ditto clipboard manager dialog.
