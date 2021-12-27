@@ -2,13 +2,57 @@
 #NoTrayIcon
 #SingleInstance, Force
 
+SetWorkingDir %A_ScriptDir%
+
 /*  Created: Matthew Pieterse
  *  Version: pre-release
  */
 
-SetWorkingDir %A_ScriptDir%
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
+
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ #F1::Return
+ #F2::Return
+ #F3::Return
+ #F4::Return
+ #F5::Return
+ #F6::Return
+ #F7::Return
+ #F8::Return
+ #F9::Return
+#F10::Return
+#F11::Return
+#F12::Return
+#F13::Return
+#F14::Return
+#F15::Return
+#F16::Return
+#F17::Return
+#F18::Return
+#F19::Return
+#F20::Return
+#F21::Return
+#F22::Return
+#F23::Return
+#F24::Return
+
+;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#1::Return
+#2::Return
+#3::Return
+#4::Return
+#5::Return
+#6::Return
+#7::Return
+#8::Return
+#9::Return
+#0::Return
+
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #a::
     Shortcut("Autohotkey.lnk")
