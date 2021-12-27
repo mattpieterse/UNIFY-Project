@@ -55,11 +55,9 @@ SetWorkingDir %A_ScriptDir%
 ; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #a::
-    Shortcut("Autohotkey.lnk")
     Return
     
 #b::
-    Shortcut("Bitwarden.lnk")
     Return
     
 #c::
@@ -78,11 +76,9 @@ SetWorkingDir %A_ScriptDir%
     Return
     
 #e::
-    Shortcut("Explorer.lnk")
     Return
     
 #f::
-    Shortcut("Firefox.lnk")
     Return
     
 #g::
@@ -92,48 +88,39 @@ SetWorkingDir %A_ScriptDir%
     Return
     
 #i::
-    Shortcut("Settings.lnk")
     Return
     
 #j::
     Return
     
 #k::
-    Shortcut("Manager.lnk")
     Return
     
 #l::
     Return
     
 #m::
-    Shortcut("Spotify.lnk")
     Return
     
 #n::
-    Shortcut("Code.lnk")
     Return
     
 #o::
-    Shortcut("OBS.lnk")
     Return
     
 #p::
     Return
     
 #q::
-    Shortcut("Toggl.lnk")
     Return
     
 #r::
-    Shortcut("Run.lnk")
     Return
     
 #s::
-    Shortcut("Everything.lnk")
     Return
     
 #t::
-    Shortcut("Cmder.lnk")
     Return
     
 #u::
@@ -143,7 +130,6 @@ SetWorkingDir %A_ScriptDir%
     Return
     
 #w::
-    Shortcut("Spy.lnk")
     Return
     
 #x::
