@@ -28,7 +28,7 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 Buy me a coffee to keep me motivated and to show support for the project!
 
-Need any help? Have a look at our [wiki](https://github.com/mpiet-za/UNIFY-Project/wiki) for frequently asked questions.
+Need help getting started? Have a look at our [wiki](https://github.com/mpiet-za/UNIFY-Project/wiki) for frequently asked questions and setup instructions.
 
 ### Social
 
