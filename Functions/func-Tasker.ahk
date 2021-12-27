@@ -34,4 +34,5 @@ KeySwap(isEnabled) {
     if (isEnabled) {
         Return
     }
+    Return
 }
