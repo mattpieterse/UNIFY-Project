@@ -46,7 +46,7 @@ Quick donations can be sent via [paypal](https://paypal.com/), or alternatively 
 Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com//mpieterse) to receive:
 
 - [x] Early access to feature rich developer builds.
-- [x] Membership-only updates on roadmap progress and ideas in concept limbo.
+- [x] Updates on roadmap progress and ideas in concept limbo.
 - [x] Email notifications whenever updates drop.
 - [x] High priority bug support and feature requests.
 
