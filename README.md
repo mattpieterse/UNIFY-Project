@@ -1,4 +1,4 @@
-## UNIFY
+## UNIFY PROJECT
 
 <p align="center">
   <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/7W30ykX.png" alt="Warning" width="800"></a>
@@ -16,7 +16,7 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ### Contents
 
-- [About](#unify)
+- [About](#unify-project)
 - [Download](#download)
 - [Contact](#support)
 - [Contributing](#contributing)
