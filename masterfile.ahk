@@ -14,6 +14,11 @@ SetWorkingDir %A_ScriptDir%
 
 ; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+KeySwap(false)     ; Read documentation for more information on this function and its use.
+KeyDisable(,,,)    ; Read documentation for more information on this function and its use.
+
+; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
  #F1::Return
  #F2::Return
  #F3::Return
