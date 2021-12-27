@@ -1,7 +1,7 @@
 ## UNIFY PROJECT
 
 <p align="center">
-  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/7W30ykX.png" alt="Warning" width="800"></a>
+  <img src="https://i.imgur.com/7W30ykX.png" />
 </p>
 
 ### Disclaimer
