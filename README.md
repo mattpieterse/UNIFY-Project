@@ -39,11 +39,11 @@ Follow my socials to keep up to date on the latest news.
 
 ### Donating
 
-Quick donations can be sent via [paypal](https://paypal.com/), or alternatively [buymeacoffee.com](https://www.buymeacoffee.com/).
+Quick donations can be sent via [paypal](https://paypal.com/), or alternatively [buymeacoffee.com](https://www.buymeacoffee.com//mpieterse).
 
 #### Membership
 
-Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) to receive:
+Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com//mpieterse) to receive:
 
 - [x] Early access to feature rich developer builds.
 - [x] Membership-only updates on roadmap progress and ideas in concept limbo.
