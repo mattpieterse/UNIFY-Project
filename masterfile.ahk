@@ -2,6 +2,10 @@
 #NoTrayIcon
 #SingleInstance, Force
 
+/*  Created: Matthew Pieterse
+ *  Version: pre-release
+ */
+
 SetWorkingDir %A_ScriptDir%
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
