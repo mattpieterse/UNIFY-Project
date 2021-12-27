@@ -69,11 +69,14 @@ Huge thanks to all the people involved in contributing their works to the projec
 #### Software
 
 - [AutoHotkey](https://www.autohotkey.com/)
+- [VS Studio](https://visualstudio.microsoft.com/)
 - [VS Code](https://code.visualstudio.com/)
+- [Github](https://github.com/)
+- [Git](https://git-scm.com/)
 
 #### Scripts
 
-- [Example](http://example.com/)
+- [center-window](http://example.com/)
 
 ### License
 
@@ -85,5 +88,5 @@ This repository uses the [GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.
 >
 >This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 ---
-Github [@mpiet-za](https://github.com/mpiet-za/) &nbsp;&middot;&nbsp;
+Github [mpiet-za](https://github.com/mpiet-za/) &nbsp;&middot;&nbsp;
 Email [1matthewpieterse@gmail.com](mailto:1matthewpieterse@gmail.com)
