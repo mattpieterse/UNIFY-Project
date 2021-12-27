@@ -1,9 +1,3 @@
-#NoEnv
-#NoTrayIcon
-#SingleInstance, Force
-
-SetWorkingDir %A_ScriptDir%
-
 Shortcut(Target) {
     Run %A_ScriptDir%\Assets\Shortcuts\%Target%
     Return
@@ -23,4 +17,21 @@ ExecuteHitlist(Target) {
   ; ExitApp
     Run %A_ScriptDir%\Assets\Development\Hitlist.ahk
     Return
+}
+
+KeyDisable(enableNumL, enableCapL, enableScrL) {
+  ; 1 or On: Turns on the key and removes the AlwaysOn/Off attribute of the key (if present).
+  ; 0 or Off: Turns off the key and removes the AlwaysOn/Off attribute of the key (if present).
+  ; AlwaysOn: Forces the key to stay on permanently.
+  ; AlwaysOff: Forces the key to stay off permanently.
+    SetNumlockState, %enableNumL%
+    SetCapsLockState, %enableCapL%
+    SetScrollLockState, %enableScrL%
+    Return
+}
+
+KeySwap(isEnabled) {
+    if (isEnabled) {
+        Return
+    }
 }
