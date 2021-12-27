@@ -1,13 +1,4 @@
-
----
-
-<p align="center">
-  <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/839wpuz.png" alt="Logo" width="800"></a>
-</p>
-
----
-
-## Brief
+## UNIFY
 
 <p align="center">
   <a href="https://github.com/mpiet-za/UNIFY-Project"><img src="https://i.imgur.com/7W30ykX.png" alt="Warning" width="800"></a>
@@ -25,7 +16,7 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ### Contents
 
-- [About](#brief)
+- [About](#unify)
 - [Download](#download)
 - [Contact](#support)
 - [Contributing](#contributing)
@@ -35,7 +26,7 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ## Support
 
->Buy me a coffee or two to say thank you and show your interest on the project!
+Buy me a coffee to keep me motivated and to show support for the project!
 
 Need any help? Have a look at our [wiki](https://github.com/mpiet-za/UNIFY-Project/wiki) for frequently asked questions.
 
@@ -58,7 +49,6 @@ Join the growing community at [buymeacoffee.com](https://www.buymeacoffee.com/) 
 - [x] Membership-only updates on roadmap progress and ideas in concept limbo.
 - [x] Email notifications whenever updates drop.
 - [x] High priority bug support and feature requests.
-- [x] VIP roles within the official discord server.
 
 *Remember that you can always opt for a one-time payment option at the support tab!*
 
@@ -79,11 +69,10 @@ A huge thanks to all the people involved in contributing their works to the proj
 #### Software
 
 - [AutoHotkey](https://www.autohotkey.com/)
+- [VS Code](https://code.visualstudio.com/)
 
 #### Scripts
 
-- [Example](http://example.com/)
-- [Example](http://example.com/)
 - [Example](http://example.com/)
 
 ### License
