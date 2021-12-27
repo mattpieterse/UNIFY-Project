@@ -16,7 +16,6 @@ wc_occurence := 0
     Return
 #c::
 ; Center the active window to the primary monitor.
-; Center the active window to the primary monitor.
     WinExist("A")                                                           ; Detect the active window.
     if (wc_occurence = 0) {
         WinMaximize, A                                                      ; Lazy fix for bugs.
