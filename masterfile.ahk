@@ -69,10 +69,6 @@ SetWorkingDir %A_ScriptDir%
     Return
     
 #d:: 
-; Open the ditto clipboard manager dialog.
-    BlockInput On
-    Send #^+!=
-    BlockInput Off
     Return
     
 #e::
