@@ -6,8 +6,6 @@ SetWorkingDir %A_ScriptDir%
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
 
-wc_occurence := 0
-
 #a::
     Shortcut("Autohotkey.lnk")
     Return
@@ -17,15 +15,6 @@ wc_occurence := 0
 #c::
 ; Center the active window to the primary monitor.
     WinExist("A")                                                           ; Detect the active window.
-    if (wc_occurence = 0) {
-        WinMaximize, A                                                      ; Lazy fix for bugs.
-        WinRestore, A                                                       ; Restore the acive window if fullscreen.
-        wc_occurence++
-    } else {
-        WinRestore, A                                                       ; Lazy fix for bugs.
-        WinMaximize, A                                                      ; Maximize the current window if restored.
-        wc_occurence := 0
-    }
     WinGetPos, PosX, PosY, SizeX, SizeY                                     ; Save window co-ordinates to variables.
     WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)      ; Move the window to the new position.
     Return
