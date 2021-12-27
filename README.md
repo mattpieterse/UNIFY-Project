@@ -64,7 +64,7 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 
 ### Recognition
 
-A huge thanks to all the people involved in contributing their works to the project!
+Huge thanks to all the people involved in contributing their works to the project!
 
 #### Software
 
