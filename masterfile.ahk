@@ -68,7 +68,7 @@ SetWorkingDir %A_ScriptDir%
     WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)      ; Relocate the window to the new position.
     Return
     
-#d:: 
+#d::
     Return
     
 #e::
