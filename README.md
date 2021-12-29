@@ -36,6 +36,8 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+[![Download](https://raw.githubusercontent.com/wacko1805/Pixel-Wallpaper-app/main/assets/download.png)](https://example.com/)
+
 ## Support
 
 Need help getting started? Have a look at our [wiki](https://github.com/mpiet-za/UNIFY-Project/wiki) for frequently asked questions and setup instructions.
