@@ -24,8 +24,6 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 </tr>
 </table>
 
-![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 ### Contents
 
 - [About](#unify-project)
