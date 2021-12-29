@@ -10,9 +10,17 @@ All scripts in this repository are designed to work together and may depend on e
 
 ### Description
 
+<table>
+<tr>
+<td>
+
 The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scripts designed to work together with the goal of optimizing the user experience and unlocking the true productive capabilities of your machine. The script is fully customizable and requires minimal work to get started, executing as your machine boots so you can set it and forget it - with all the convenience of an elevated control over your user experience!
 
 Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-za/UNIFY-Project/wiki) section.
+
+</td>
+</tr>
+</table>
 
 ### Contents
 
