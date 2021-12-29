@@ -8,6 +8,8 @@
 
 All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### Description
 
 <table>
@@ -22,6 +24,8 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 </tr>
 </table>
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### Contents
 
 - [About](#unify-project)
@@ -30,7 +34,11 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 - [Contributing](#contributing)
 - [Credits](#credits)
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Download
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Support
 
@@ -66,6 +74,8 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 
 *Be sure to keep checking back up here for updates and roadmap changes!*
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Credits
 
 **This collection of scripts was compiled by Matthew Pieterse.**
@@ -87,6 +97,8 @@ Huge thanks to all the people involved in contributing their works to the projec
 - [center-window](http://example.com/)
 - [center-markdown](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github#:~:text=So%20it%20is%20possible%20to%20align%20images!%20You%20just%20have%20to%20use%20inline%20CSS%20to%20solve%20the%20problem.%20You%20can%20take%20an%20example%20from%20my%20GitHub%20repository.%20At%20the%20bottom%20of%20README.md%20there%20is%20a%20centered%20aligned%20image.%20For%20simplicity%20you%20can%20just%20do%20as%20follows%3A)
 
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### License
 
 This repository uses the [GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.html) license.
@@ -96,6 +108,8 @@ This repository uses the [GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.
 >This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 >
 >This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
----
+
+![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 Github [mpiet-za](https://github.com/mpiet-za/) &nbsp;&middot;&nbsp;
 Email [1matthewpieterse@gmail.com](mailto:1matthewpieterse@gmail.com)
