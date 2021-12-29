@@ -4,13 +4,11 @@
   <img src="https://i.imgur.com/7W30ykX.png" />
 </p>
 
-### Disclaimer
-
 All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Description
+## Description
 
 <table>
 <tr>
@@ -26,7 +24,7 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ### Contents
 
-- [About](#unify-project)
+- [About](#description)
 - [Download](#download)
 - [Contact](#support)
 - [Contributing](#contributing)
