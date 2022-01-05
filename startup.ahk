@@ -9,7 +9,7 @@ SetWorkingDir %A_ScriptDir%
 IniFile := A_ScriptDir . "\config.ini"
 
 if !(FileExist(IniFile)) {
-    MsgBox, 262160, Unexpected Error, The configuration file could not be found.`n`n"%A_ScriptDir%\config.ini"
+    MsgBox, 262160, Configuration Error, The configuration file could not be found. `n "%A_ScriptDir%\config.ini"
     ExitApp
 } else {
     IniRead, I_Active, % IniFile, Settings, DelayStartup    ; Interprets values to variable.
