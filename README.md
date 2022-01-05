@@ -24,11 +24,20 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ### Contents
 
-- [About](#description)
+- [UNIFY PROJECT](#unify-project)
+- [Description](#description)
+  - [Contents](#contents)
 - [Download](#download)
-- [Contact](#support)
-- [Contributing](#contributing)
+- [Support](#support)
+  - [Social](#social)
+  - [Donating](#donating)
+    - [Membership](#membership)
+  - [Contributing](#contributing)
 - [Credits](#credits)
+  - [Recognition](#recognition)
+    - [Software](#software)
+    - [Code](#code)
+  - [License](#license)
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -98,7 +107,7 @@ Huge thanks to all the people involved in contributing their works to the projec
 
 This repository uses the [GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.html) license.
 
->Copyright (C) 2021 Matthew Pieterse
+>Copyright (C) 2022 Matthew Pieterse
 >
 >This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 >
