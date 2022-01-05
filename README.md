@@ -24,20 +24,10 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ### Contents
 
-- [UNIFY PROJECT](#unify-project)
 - [Description](#description)
-  - [Contents](#contents)
 - [Download](#download)
 - [Support](#support)
-  - [Social](#social)
-  - [Donating](#donating)
-    - [Membership](#membership)
-  - [Contributing](#contributing)
 - [Credits](#credits)
-  - [Recognition](#recognition)
-    - [Software](#software)
-    - [Code](#code)
-  - [License](#license)
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
