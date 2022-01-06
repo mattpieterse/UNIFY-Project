@@ -28,7 +28,6 @@ Center(winActive) {
     workL := NumGet(monitorInfo, 20, "Int")
     workR := NumGet(monitorInfo, 28, "Int")
     workB := NumGet(monitorInfo, 32, "Int")
-    WinExist("A")
     WinRestore, A
     WinGetPos, PosX, PosY, SizeX, SizeY, A
     if (winActive) { ; Center active window to active monitor.
