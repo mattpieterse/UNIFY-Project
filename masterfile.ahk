@@ -76,8 +76,7 @@ KeyDisable(x, x, x)    ; Read documentation for more information on this functio
     workL := NumGet(monitorInfo, 20, "Int") ; Get monitor bounding for left.
     workR := NumGet(monitorInfo, 28, "Int") ; Get monitor bounding for right.
     workB := NumGet(monitorInfo, 32, "Int") ; Get monitor bounding for bottom.
-    WinExist("A")                                       ; Active window detection.
-    WinRestore, A                                       ; Active window restoration.
+    WinRestore, A                                       ; Restore the active window.
     WinGetPos, PosX, PosY, SizeX, SizeY, A              ; Save window co-ordinates to variables.
     WinMove, A,                                         ; Relocate the window to the new position.
         , workL + (workR - workL) // 2 - SizeX // 2     ; Calculate window co-ordinates.
