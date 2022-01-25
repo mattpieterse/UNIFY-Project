@@ -55,9 +55,9 @@ Resolution(Screen_Width := 1920, Screen_Height := 1080, Color_Depth := 32)
 }
 
 KeyDisable(enableNumL, enableCapL, enableScrL) {
-  ; 1 or On: Turns on the key and removes the AlwaysOn/Off attribute of the key (if present).
-  ; 0 or Off: Turns off the key and removes the AlwaysOn/Off attribute of the key (if present).
-  ; AlwaysOn: Forces the key to stay on permanently.
+  ; 1 or On:   Turns on the key and removes the AlwaysOn/Off attribute of the key (if present).
+  ; 0 or Off:  Turns off the key and removes the AlwaysOn/Off attribute of the key (if present).
+  ; AlwaysOn:  Forces the key to stay on permanently.
   ; AlwaysOff: Forces the key to stay off permanently.
     SetNumlockState, %enableNumL%
     SetCapsLockState, %enableCapL%
