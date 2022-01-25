@@ -172,7 +172,19 @@ KeyDisable(x, x, x)    ; Read documentation for more information on this functio
 ; Change the display resolution to (1600 x 900).
     Resolution(1600, 900)
     Return
-    
+
+#NumpadAdd::
+    Brightness(currentBrightness += 10)
+    Return
+
+#NumpadSub::
+    Brightness(currentBrightness -= 10)
+    Return
+
+#NumpadMult::
+    Brightness(currentBrightness := 50)
+    Return
+
 #Delete::
 ; Clear the system recycle bin.
     FileRecycleEmpty 
