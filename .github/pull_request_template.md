@@ -23,26 +23,13 @@ Tick the boxes below that apply to this pull request.
 ## Testing
 
 <!---
-If changes to the repository were minimal or do not require testing you may use the following examples.
-{
-  EXAMPLE: This code was tested through normal usage.
-  EXAMPLE: This code was not tested in any way.
-}
-If changes to the repository were not fully tested and require supervision you may use the following examples.
-{
-  EXAMPLE: This code requires further testing.
-  EXAMPLE: This code may be unstable and requires further testing.
-}
--->
-
-Type a short description explaining how the code was tested and the tools used.
-
-<!---
 Tick the boxes below that apply to this pull request.
 -->
 
-- [ ] Fixable issues were not found during the testing of this code.
-- [ ] Unfixable issues were not found during the testing of this code.
+- [ ] This code was not tested in any way.
+- [ ] This code was tested through normal usage.
+- [ ] This code requires further testing.
+- [ ] This code may be unstable and requires further testing.
 
 ### System
 
