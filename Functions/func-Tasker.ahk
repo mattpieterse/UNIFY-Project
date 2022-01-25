@@ -56,7 +56,6 @@ Resolution(Screen_Width := 1920, Screen_Height := 1080, Color_Depth := 32)
 
 Brightness(ByRef brightness := 50, timeout = 1) {
 ; https://www.autohotkey.com/boards/viewtopic.php?t=83382#:~:text=resets%20the%20brightness.-,Code%3A,-Select%20all%20%2D%20Collapse
-    Increments := 10
     For property in ComObjGet("winmgmts:\\.\root\WMI").ExecQuery("SELECT * FROM WmiMonitorBrightness")
 	    currentBrightness := property.CurrentBrightness
     if (brightness >= 0 && brightness <= 100) {
