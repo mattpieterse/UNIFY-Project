@@ -17,6 +17,12 @@ SetWorkingDir %A_ScriptDir%
 KeySwap(false)         ; Read documentation for more information on this function and its use.
 KeyDisable(x, x, x)    ; Read documentation for more information on this function and its use.
 
+IniRead, TrayIcon, % IniFile, Settings, TrayIcon
+
+if !(TrayIcon) {
+	Menu, Tray, NoIcon
+}
+
 ; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
  #F1::Return
