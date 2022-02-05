@@ -3,6 +3,8 @@
 
 SetWorkingDir %A_ScriptDir%
 
+IniFile := A_ScriptDir . "\config.ini"
+
 /*  Created: Matthew Pieterse
  *  Version: Pre-release
  */
@@ -17,7 +19,7 @@ run, %A_ScriptDir%\acceleration.ahk
 KeySwap(false)          ; Read documentation for more information on this function and its use.
 KeyDisable(x, x, x)     ; Read documentation for more information on this function and its use.
 
-IniRead, isTrayEnabled, %A_ScriptDir%\config.ini, Settings, TrayIcon
+IniRead, isTrayEnabled, % IniFile, Settings, TrayIcon
 
 if !(%isTrayEnabled%) { ; Percentage symbols are required for this statement to work.
 	Menu, Tray, NoIcon
