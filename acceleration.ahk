@@ -7,7 +7,7 @@ SendMode Input
 
 SetWorkingDir %A_ScriptDir%
 
-Menu, Tray, Icon, shell32.dll, 44
+IniFile := A_ScriptDir . "\config.ini"
 
 ; ----------------------------------------------------------------------------------------------------
 
@@ -20,6 +20,8 @@ IniRead, scrollTooltip, % IniFile, Settings, ScrollTooltip
 ; ----------------------------------------------------------------------------------------------------
 
 size := 200
+
+Menu, Tray, Icon, shell32.dll, 44
 
 Gui, -Caption +ToolWindow +AlwaysOnTop +LastFound
 Gui, Color, 008833
