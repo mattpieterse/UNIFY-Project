@@ -33,7 +33,13 @@ Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-z
 
 ## Download
 
+*coming soon!*
+
+- [Lastest Version (1.0.0)](https://example.com/)
+
+<!---
 [![Download](https://raw.githubusercontent.com/wacko1805/Pixel-Wallpaper-app/main/assets/download.png)](https://example.com/)
+--->
 
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## Support
@@ -74,7 +80,7 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 
 ## Credits
 
-**This collection of scripts was compiled by Matthew Pieterse.**
+This collection of scripts was compiled by ```Matthew Pieterse```
 
 ### Recognition
 
@@ -85,6 +91,7 @@ Huge thanks to all the people involved in contributing their works to the projec
 - [AutoHotkey](https://www.autohotkey.com/)
 - [VS Studio](https://visualstudio.microsoft.com/)
 - [VS Code](https://code.visualstudio.com/)
+- [Magicbox](https://sourceforge.net/projects/magicbox-factory/)
 - [Github](https://github.com/)
 - [Git](https://git-scm.com/)
 
