@@ -80,7 +80,7 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 
 ## Credits
 
-This collection of scripts was compiled by Matthew Pieterse.
+This collection of scripts was compiled by ```Matthew Pieterse```
 
 ### Recognition
 
