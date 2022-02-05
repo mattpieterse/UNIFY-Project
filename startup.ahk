@@ -13,10 +13,12 @@ IniRead, I_Delay, % IniFile, Settings, DelayAmmount     ; Interprets values to v
 I_Delay := I_Delay > 1200000 ? 1200000 : I_Delay        ; Ternary operation to cap the delay.
 
 if !(FileExist(IniFile)) {
+    SoundPlay, *16
     MsgBox, 262160, Configuration Error, The configuration file could not be found. `n "%A_ScriptDir%\config.ini"
     ExitApp
 } if (A_AhkVersion < "1.1.33.10") {
   ; This dialog was built using the magicbox script.
+    SoundPlay, *16
     OnMessage(0x44, "OnMsgBox")
     MsgBox 0x21, Update Notice (%A_AhkVersion%), The current version of autohotkey is outdated`, please update to the latest version or some scripts may fail to run.
     OnMessage(0x44, "")
