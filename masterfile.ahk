@@ -7,22 +7,23 @@ SetWorkingDir %A_ScriptDir%
  *  Version: Pre-release
  */
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
+run, %A_ScriptDir%\acceleration.ahk
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
-KeySwap(false)         ; Read documentation for more information on this function and its use.
-KeyDisable(x, x, x)    ; Read documentation for more information on this function and its use.
+KeySwap(false)          ; Read documentation for more information on this function and its use.
+KeyDisable(x, x, x)     ; Read documentation for more information on this function and its use.
 
-IniRead, TrayIcon, % IniFile, Settings, TrayIcon
+IniRead, isTrayEnabled, %A_ScriptDir%\config.ini, Settings, TrayIcon
 
-if !(TrayIcon) {
+if !(%isTrayEnabled%) { ; Percentage symbols are required for this statement to work.
 	Menu, Tray, NoIcon
 }
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
  #F1::Return
  #F2::Return
@@ -49,7 +50,7 @@ if !(TrayIcon) {
 #F23::Return
 #F24::Return
 
-;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
 #1::Return
 #2::Return
@@ -62,7 +63,7 @@ if !(TrayIcon) {
 #9::Return
 #0::Return
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
 #a::
     Return
@@ -195,3 +196,4 @@ if !(TrayIcon) {
     FileRecycleEmpty 
     Return
     
+; ----------------------------------------------------------------------------------------------------
