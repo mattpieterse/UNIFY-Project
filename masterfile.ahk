@@ -1,23 +1,31 @@
 #NoEnv
-#NoTrayIcon
 #SingleInstance, Force
 
 SetWorkingDir %A_ScriptDir%
+
+IniFile := A_ScriptDir . "\config.ini"
 
 /*  Created: Matthew Pieterse
  *  Version: Pre-release
  */
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
+run, %A_ScriptDir%\acceleration.ahk
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
-KeySwap(false)         ; Read documentation for more information on this function and its use.
-KeyDisable(x, x, x)    ; Read documentation for more information on this function and its use.
+KeySwap(false)          ; Read documentation for more information on this function and its use.
+KeyDisable(x, x, x)     ; Read documentation for more information on this function and its use.
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IniRead, isTrayEnabled, % IniFile, Settings, TrayIcon
+
+if !(%isTrayEnabled%) { ; Percentage symbols are required for this statement to work.
+	Menu, Tray, NoIcon
+}
+
+; ----------------------------------------------------------------------------------------------------
 
  #F1::Return
  #F2::Return
@@ -44,7 +52,7 @@ KeyDisable(x, x, x)    ; Read documentation for more information on this functio
 #F23::Return
 #F24::Return
 
-;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
 #1::Return
 #2::Return
@@ -57,7 +65,7 @@ KeyDisable(x, x, x)    ; Read documentation for more information on this functio
 #9::Return
 #0::Return
 
-; ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+; ----------------------------------------------------------------------------------------------------
 
 #a::
     Return
@@ -190,3 +198,4 @@ KeyDisable(x, x, x)    ; Read documentation for more information on this functio
     FileRecycleEmpty 
     Return
     
+; ----------------------------------------------------------------------------------------------------
