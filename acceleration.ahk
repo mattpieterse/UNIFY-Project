@@ -197,9 +197,4 @@ WheelDown::
     Goto Scroll
     Return
 
-#End::
-; Reload the current script at this location.
-    Reload
-    Return
-
 ; ----------------------------------------------------------------------------------------------------
