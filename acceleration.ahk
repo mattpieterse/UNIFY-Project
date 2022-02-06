@@ -41,7 +41,7 @@ Gui, Add, Text, vMyText cLime,
 ; ----------------------------------------------------------------------------------------------------
 
 scrollDistance := 0
-vmax           := 1
+scrollMaximum  := 1
 
 if (scrollGUI) {
     SetTimer, Looper, -2
@@ -51,23 +51,23 @@ Scroll:
     t := A_TimeSincePriorHotkey
     if (A_PriorHotkey = A_ThisHotkey && t < scrollTimeout) {
         scrollDistance++
-        vnow := (t < 80 && t > 1) ? (250.0 / t) - 1 : 1
+        scrollCurrent := (t < 80 && t > 1) ? (250.0 / t) - 1 : 1
         if (scrollBoost > 1 && scrollDistance > scrollBoost) {
-            if (vnow > vmax) {
-                vmax := vnow
+            if (scrollCurrent > scrollMaximum) {
+                scrollMaximum := scrollCurrent
             } else {
-                vnow := vmax
+                scrollCurrent := scrollMaximum
             }
-            vnow *= scrollDistance / scrollBoost
+            scrollCurrent *= scrollDistance / scrollBoost
         }
-        vnow := (vnow > 1) ? ((vnow > scrollLimit) ? scrollLimit : Floor(vnow)) : 1
-        if (vnow > 1 && %scrollTooltip%) {
-            QuickTooltip(vnow, timeout)
+        scrollCurrent := (scrollCurrent > 1) ? ((scrollCurrent > scrollLimit) ? scrollLimit : Floor(scrollCurrent)) : 1
+        if (scrollCurrent > 1 && %scrollTooltip%) {
+            QuickTooltip(scrollCurrent, timeout)
         }
-        MouseClick, %A_ThisHotkey%,,, vnow
+        MouseClick, %A_ThisHotkey%,,, scrollCurrent
     } else {
         scrollDistance := 0
-        vmax := 1
+        scrollMaximum := 1
         MouseClick %A_ThisHotkey%
     } 
     Return
@@ -129,7 +129,7 @@ Looper:
         posYd := posY + 32
         posXd := posX + 8
         Gui, Font, s20 cBlue, Verdana
-        GuiControl,, mytext, vnow
+        GuiControl,, mytext, scrollCurrent
         Gui, Show, x%posXd% y%posYd% NA
         SetTimer, EndGUI, -200
         mouseWheelDown = -1
