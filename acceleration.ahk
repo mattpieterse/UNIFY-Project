@@ -13,6 +13,8 @@ IniFile := A_ScriptDir . "\config.ini"
  *  The original messy code can be found here: https://github.com/TaranVH/2nd-keyboard
  */
 
+ ; FIXME: Overlap of tooltiip value display and the scroll down visualizer. (could be a var that doesnt have percentage declaration)
+
 ; ----------------------------------------------------------------------------------------------------
 
 IniRead, scrollGUI, % IniFile, Settings, ScrollGUI
@@ -85,14 +87,14 @@ EndGUI:
     Return
 
 Looper:
+    MouseGetPos, realposX, realposY
+    posX := realposX - Size / 3.4
+    posY := realposY - Size / 4.1 + 0
     if (toggleFakeCursor = 1) {
         ToolTip, ^
     } else if (toggleFakeCursor = 0) {
         ToolTip, 
     }
-    MouseGetPos, realposX, realposY
-        posX := realposX - Size / 3.4
-        posY := realposY - Size / 4.1 + 0
     if (mouseButtonL = 1 && mouseButtonR = 1) {
         GuiControl,, MyText, ()
         posX := posX - 10
@@ -130,7 +132,7 @@ Looper:
         posYd := posY + 32
         posXd := posX + 8
         Gui, Font, s20 cBlue, Verdana
-        GuiControl,, mytext, scrollCurrent
+        GuiControl,, mytext, %scrollCurrent%
         Gui, Show, x%posXd% y%posYd% NA
         SetTimer, EndGUI, -200
         mouseWheelDown = -1
