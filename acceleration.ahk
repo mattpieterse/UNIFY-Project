@@ -107,7 +107,7 @@ Looper:
     }
     if (mouseButtonL = 1) {
         GuiControl,, MyText, (
-        posXX := posX-10
+        posXX := posX - 10
         Gui, Show, x%posXX% y%posY% NA
     }
     if (mouseButtonL = -1) {
