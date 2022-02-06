@@ -99,12 +99,12 @@ Looper:
         posX := realposX - Size / 3.4
         posY := realposY - Size / 4.1 + 0
     if (mouseButtonL = 1 && mouseButtonR = 1) {
-		GuiControl,, MyText, ()
-		posX := posX - 10
-		Gui, Show, x%posX% y%posY% NA
-		SetTimer, Looper, -20
-		Return
-	}
+        GuiControl,, MyText, ()
+        posX := posX - 10
+        Gui, Show, x%posX% y%posY% NA
+        SetTimer, Looper, -20
+        Return
+    }
     if (mouseButtonL = 1) {
         GuiControl,, MyText, (
         posXX := posX-10
