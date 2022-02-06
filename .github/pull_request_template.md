@@ -3,7 +3,7 @@
 Type a detailed description of the changes that were made to the project and the motivation behind them, as well as where the changes were made and how they affect the repository as a whole.
 
 <!---
-Reference a issue relating to the changes of this pull request or make no changes if it is non-applicable.
+Reference an issue relating to the changes of this pull request or make no changes if it is non-applicable.
 (syntax-eg: #6 || replace "n/a")
 -->
 
