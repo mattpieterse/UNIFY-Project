@@ -70,12 +70,12 @@ Scroll:
 
 #Lbutton::
     if (toggleFakeCursor = 1) {
-	    toggleFakeCursor = 0
-    }else {
-	    toggleFakeCursor = 1
-	    sleep 2
-	    tooltip,
-	}
+        toggleFakeCursor = 0
+    } else {
+        toggleFakeCursor = 1
+        sleep 2
+        tooltip,
+    }
     Return
 
 EndGUI:
