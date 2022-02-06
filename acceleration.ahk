@@ -62,15 +62,16 @@ Scroll:
         }
         scrollCurrent := (scrollCurrent > 1) ? ((scrollCurrent > scrollLimit) ? scrollLimit : Floor(scrollCurrent)) : 1
         if (scrollCurrent > 1 && %scrollTooltip%) {
-            QuickTooltip(scrollCurrent, timeout)
+            QuickTooltip(scrollCurrent, scrollTimeout)
         }
         MouseClick, %A_ThisHotkey%,,, scrollCurrent
+        Return
     } else {
         scrollDistance := 0
         scrollMaximum := 1
         MouseClick %A_ThisHotkey%
+        Return
     } 
-    Return
 
 EndGUI:
     if (mouseWheelUp = -1) {
@@ -85,9 +86,9 @@ EndGUI:
 
 Looper:
     if (toggleFakeCursor = 1) {
-        Tooltip, ^
+        ToolTip, ^
     } else if (toggleFakeCursor = 0) {
-        Tooltip,
+        ToolTip, 
     }
     MouseGetPos, realposX, realposY
         posX := realposX - Size / 3.4
@@ -138,12 +139,12 @@ Looper:
     Return
 
 QuickTooltip(text, delay) {
-    Tooltip, %text%
+    ToolTip, %text%
     SetTimer TooltipOff, %delay%
     Return
     TooltipOff:
         SetTimer TooltipOff, off
-        Tooltip
+        ToolTip, 
         Return
 }
 
@@ -156,7 +157,7 @@ QuickTooltip(text, delay) {
     } else {
         toggleFakeCursor = 1
         Sleep 2
-        Tooltip,
+        ToolTip, 
         Return
     }
 
