@@ -13,8 +13,6 @@ IniFile := A_ScriptDir . "\config.ini"
  *  The original messy code can be found here: https://github.com/TaranVH/2nd-keyboard
  */
 
- ; FIXME: Overlap of tooltiip value display and the scroll down visualizer. (could be a var that doesnt have percentage declaration)
-
 ; ----------------------------------------------------------------------------------------------------
 
 IniRead, scrollGUI, % IniFile, Settings, ScrollGUI
@@ -132,7 +130,7 @@ Looper:
         posYd := posY + 32
         posXd := posX + 8
         Gui, Font, s20 cBlue, Verdana
-        GuiControl,, mytext, %scrollCurrent%
+        GuiControl,, mytext, v
         Gui, Show, x%posXd% y%posYd% NA
         SetTimer, EndGUI, -200
         mouseWheelDown = -1
