@@ -9,6 +9,10 @@ SetWorkingDir %A_ScriptDir%
 
 IniFile := A_ScriptDir . "\config.ini"
 
+/*  The adaptation and refactoring of this code was done by: (2022) MATTHEW PIETERSE
+ *  The original messy code can be found here: https://github.com/TaranVH/2nd-keyboard
+ */
+
 ; ----------------------------------------------------------------------------------------------------
 
 IniRead, scrollGUI, % IniFile, Settings, ScrollGUI
@@ -37,7 +41,7 @@ Gui, Add, Text, vMyText cLime,
 ; ----------------------------------------------------------------------------------------------------
 
 scrollDistance := 0
-vmax           := 1
+scrollMaximum  := 1
 
 if (scrollGUI) {
     SetTimer, Looper, -2
@@ -47,36 +51,27 @@ Scroll:
     t := A_TimeSincePriorHotkey
     if (A_PriorHotkey = A_ThisHotkey && t < scrollTimeout) {
         scrollDistance++
-        vnow := (t < 80 && t > 1) ? (250.0 / t) - 1 : 1
+        scrollCurrent := (t < 80 && t > 1) ? (250.0 / t) - 1 : 1
         if (scrollBoost > 1 && scrollDistance > scrollBoost) {
-            if (vnow > vmax) {
-                vmax := vnow
+            if (scrollCurrent > scrollMaximum) {
+                scrollMaximum := scrollCurrent
             } else {
-                vnow := vmax
+                scrollCurrent := scrollMaximum
             }
-            vnow *= scrollDistance / scrollBoost
+            scrollCurrent *= scrollDistance / scrollBoost
         }
-        vnow := (vnow > 1) ? ((vnow > scrollLimit) ? scrollLimit : Floor(vnow)) : 1
-        if (vnow > 1 && %scrollTooltip%) {
-            QuickTooltip(vnow, timeout)
+        scrollCurrent := (scrollCurrent > 1) ? ((scrollCurrent > scrollLimit) ? scrollLimit : Floor(scrollCurrent)) : 1
+        if (scrollCurrent > 1 && %scrollTooltip%) {
+            QuickTooltip(scrollCurrent, scrollTimeout)
         }
-        MouseClick, %A_ThisHotkey%,,, vnow
+        MouseClick, %A_ThisHotkey%,,, scrollCurrent
+        Return
     } else {
         scrollDistance := 0
-        vmax := 1
+        scrollMaximum := 1
         MouseClick %A_ThisHotkey%
+        Return
     } 
-    Return
-
-#Lbutton::
-    if (toggleFakeCursor = 1) {
-	    toggleFakeCursor = 0
-    }else {
-	    toggleFakeCursor = 1
-	    sleep 2
-	    tooltip,
-	}
-    Return
 
 EndGUI:
     if (mouseWheelUp = -1) {
@@ -90,24 +85,24 @@ EndGUI:
     Return
 
 Looper:
-    if (toggleFakeCursor = 1) {
-	    tooltip, ^
-    } else if (toggleFakeCursor = 0) {
-	    tooltip,
-    }
     MouseGetPos, realposX, realposY
-        posX := realposX - Size / 3.4
-        posY := realposY - Size / 4.1 + 0
+    posX := realposX - Size / 3.4
+    posY := realposY - Size / 4.1 + 0
+    if (toggleFakeCursor = 1) {
+        ToolTip, ^
+    } else if (toggleFakeCursor = 0) {
+        ToolTip, 
+    }
     if (mouseButtonL = 1 && mouseButtonR = 1) {
-		GuiControl,, MyText, ()
-		posX := posX - 10
-		Gui, Show, x%posX% y%posY% NA
-		SetTimer, Looper, -20
-		Return
-	}
+        GuiControl,, MyText, ()
+        posX := posX - 10
+        Gui, Show, x%posX% y%posY% NA
+        SetTimer, Looper, -20
+        Return
+    }
     if (mouseButtonL = 1) {
         GuiControl,, MyText, (
-        posXX := posX-10
+        posXX := posX - 10
         Gui, Show, x%posXX% y%posY% NA
     }
     if (mouseButtonL = -1) {
@@ -135,7 +130,7 @@ Looper:
         posYd := posY + 32
         posXd := posX + 8
         Gui, Font, s20 cBlue, Verdana
-        GuiControl,, mytext, vnow
+        GuiControl,, mytext, v
         Gui, Show, x%posXd% y%posYd% NA
         SetTimer, EndGUI, -200
         mouseWheelDown = -1
@@ -144,16 +139,27 @@ Looper:
     Return
 
 QuickTooltip(text, delay) {
-    Tooltip, %text%
+    ToolTip, %text%
     SetTimer TooltipOff, %delay%
     Return
     TooltipOff:
         SetTimer TooltipOff, off
-        Tooltip
+        ToolTip, 
         Return
 }
 
 ; ----------------------------------------------------------------------------------------------------
+
+#Lbutton::
+    if (toggleFakeCursor = 1) {
+        toggleFakeCursor = 0
+        Return
+    } else {
+        toggleFakeCursor = 1
+        Sleep 2
+        ToolTip, 
+        Return
+    }
 
 ~*$LButton::
     mouseButtonL = 1

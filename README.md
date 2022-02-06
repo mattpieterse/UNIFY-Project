@@ -4,8 +4,6 @@
   <img src="https://i.imgur.com/7W30ykX.png" />
 </p>
 
-All scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
-
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Description
@@ -15,6 +13,8 @@ All scripts in this repository are designed to work together and may depend on e
 <td>
 
 The **UNIFY PROJECT** is a kludge of useful, open source and freely licensed scripts designed to work together with the goal of optimizing the user experience and unlocking the true productive capabilities of your machine. The script is fully customizable and requires minimal work to get started, executing as your machine boots so you can set it and forget it - with all the convenience of an elevated control over your user experience!
+
+Scripts in this repository are designed to work together and may depend on each other to function, it is not recommended to use them separately unless you are well versed in the `AutoHotkey` scripting language.
 
 Find a full list of tweaks and features in the [wiki](https://github.com/mpiet-za/UNIFY-Project/wiki) section.
 
@@ -79,12 +79,11 @@ Feature requests and bug reports are welcome, feel free to leave a report detail
 ![-----](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Credits
-
-This collection of scripts was compiled by ```Matthew Pieterse```
-
 ### Recognition
 
 Huge thanks to all the people involved in contributing their works to the project!
+
+This collection of scripts was compiled by ```Matthew Pieterse```
 
 #### Software
 
