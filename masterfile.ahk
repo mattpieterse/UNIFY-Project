@@ -20,9 +20,9 @@ Run %A_ScriptDir%\acceleration.ahk
 KeySwap(false)          ; Read documentation for more information on this function and its use.
 KeyDisable(x, x, x)     ; Read documentation for more information on this function and its use.
 
-IniRead, isTrayEnabled, % IniFile, Settings, TrayIcon
+IniRead, TrayIcon, % IniFile, Settings, TrayIcon
 
-if !(%isTrayEnabled%) { ; Percentage symbols are required for this statement to work.
+if !(%TrayIcon%) { ; Percentage symbols are required for this statement to work.
 	Menu, Tray, NoIcon
 }
 
