@@ -91,9 +91,9 @@ EndGUI:
 
 Looper:
     if (toggleFakeCursor = 1) {
-	    tooltip, ^
+        tooltip, ^
     } else if (toggleFakeCursor = 0) {
-	    tooltip,
+        tooltip,
     }
     MouseGetPos, realposX, realposY
         posX := realposX - Size / 3.4
