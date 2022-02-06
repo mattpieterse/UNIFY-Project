@@ -12,7 +12,8 @@ IniFile := A_ScriptDir . "\config.ini"
 ; ----------------------------------------------------------------------------------------------------
 
 #Include %A_ScriptDir%\Functions\func-Tasker.ahk
-run, %A_ScriptDir%\acceleration.ahk
+
+Run %A_ScriptDir%\acceleration.ahk
 
 ; ----------------------------------------------------------------------------------------------------
 
