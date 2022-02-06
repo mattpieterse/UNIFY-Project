@@ -9,6 +9,10 @@ SetWorkingDir %A_ScriptDir%
 
 IniFile := A_ScriptDir . "\config.ini"
 
+/*  The adaptation and refactoring of this code was done by: (2022) MATTHEW PIETERSE
+ *  The original messy code can be found here: https://github.com/TaranVH/2nd-keyboard
+ */
+
 ; ----------------------------------------------------------------------------------------------------
 
 IniRead, scrollGUI, % IniFile, Settings, ScrollGUI
