@@ -72,16 +72,6 @@ Scroll:
     } 
     Return
 
-#Lbutton::
-    if (toggleFakeCursor = 1) {
-        toggleFakeCursor = 0
-    } else {
-        toggleFakeCursor = 1
-        sleep 2
-        tooltip,
-    }
-    Return
-
 EndGUI:
     if (mouseWheelUp = -1) {
         mouseWheelUp = 0
@@ -95,9 +85,9 @@ EndGUI:
 
 Looper:
     if (toggleFakeCursor = 1) {
-        tooltip, ^
+        Tooltip, ^
     } else if (toggleFakeCursor = 0) {
-        tooltip,
+        Tooltip,
     }
     MouseGetPos, realposX, realposY
         posX := realposX - Size / 3.4
@@ -158,6 +148,17 @@ QuickTooltip(text, delay) {
 }
 
 ; ----------------------------------------------------------------------------------------------------
+
+#Lbutton::
+    if (toggleFakeCursor = 1) {
+        toggleFakeCursor = 0
+        Return
+    } else {
+        toggleFakeCursor = 1
+        Sleep 2
+        Tooltip,
+        Return
+    }
 
 ~*$LButton::
     mouseButtonL = 1
