@@ -12,6 +12,8 @@ ExecuteHitlist(Target) {
   ; The file that is executed will not be included, see the wiki for instructions.
     IfExist, %A_ScriptDir%\Assets\Development\Hitlist.ahk
         Run, %A_ScriptDir%\Assets\Development\Hitlist.ahk
+    IfExist, %A_ScriptDir%\Assets\Development\HitlistDev.ahk
+        Run, %A_ScriptDir%\Assets\Development\HitlistDev.ahk
     Return
 }
 
