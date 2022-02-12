@@ -98,6 +98,8 @@ This collection of scripts was compiled by ```Matthew Pieterse```
 
 - [center-window](http://example.com/)
 - [center-markdown](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-file-on-github#:~:text=So%20it%20is%20possible%20to%20align%20images!%20You%20just%20have%20to%20use%20inline%20CSS%20to%20solve%20the%20problem.%20You%20can%20take%20an%20example%20from%20my%20GitHub%20repository.%20At%20the%20bottom%20of%20README.md%20there%20is%20a%20centered%20aligned%20image.%20For%20simplicity%20you%20can%20just%20do%20as%20follows%3A)
+- [screen-brightness](https://www.autohotkey.com/boards/viewtopic.php?t=83382#:~:text=resets%20the%20brightness.-,Code%3A,-Select%20all%20%2D%20Collapse)
+- [screen-resolution]()
 
 ### License
 
