@@ -75,22 +75,7 @@ if !(%TrayIcon%) { ; Percentage symbols are required for this statement to work.
     Return
     
 #c::
-; Center the active window to the active monitor.
-; https://www.autohotkey.com/boards/viewtopic.php?t=15501#:~:text=2016%2C%2011%3A52-,Code%3A,-Select%20all%20%2D%20Expand
-    winHandle := WinExist("A")
-    monHandle := DllCall("MonitorFromWindow", "Ptr", winHandle, "UInt", 0x2)
-    VarSetCapacity(monitorInfo, 40), NumPut(40, monitorInfo)
-    DllCall("GetMonitorInfo", "Ptr", monHandle, "Ptr", &monitorInfo)
-    workT := NumGet(monitorInfo, 24, "Int") ; Get monitor bounding for top.
-    workL := NumGet(monitorInfo, 20, "Int") ; Get monitor bounding for left.
-    workR := NumGet(monitorInfo, 28, "Int") ; Get monitor bounding for right.
-    workB := NumGet(monitorInfo, 32, "Int") ; Get monitor bounding for bottom.
-    WinRestore, A                                       ; Restore the active window.
-    WinGetPos, PosX, PosY, SizeX, SizeY, A              ; Save window co-ordinates to variables.
-    WinMove, A,                                         ; Relocate the window to the new position.
-        , workL + (workR - workL) // 2 - SizeX // 2     ; Calculate window co-ordinates.
-        , workT + (workB - workT) // 2 - SizeY // 2     ; Calculate window co-ordinates.
-    ;   WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)
+    WindowCenter(true)
     Return
     
 #d::
