@@ -9,9 +9,9 @@ ExecuteHit(Target) {
 } ; Can also target process PID. (standard syntax 'process_name.exe')
 
 ExecuteHitlist(Target) {
-  ; The file that is executed will not be included, see the wiki for instructions.
-    IfExist, %A_ScriptDir%\Assets\Development\Hitlist.ahk
-        Run, %A_ScriptDir%\Assets\Development\Hitlist.ahk
+  ; See the wiki for more information on how this works.
+    IfExist, %A_ScriptDir%\Assets\Shortcuts\Hitlist.ahk
+        Run, %A_ScriptDir%\Assets\Shortcuts\Hitlist.ahk
     IfExist, %A_ScriptDir%\Assets\Development\HitlistDev.ahk
         Run, %A_ScriptDir%\Assets\Development\HitlistDev.ahk
     Return
