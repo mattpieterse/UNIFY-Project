@@ -9,35 +9,33 @@ ExecuteHit(Target) {
 } ; Can also target process PID. (standard syntax 'process_name.exe')
 
 ExecuteHitlist(Target) {
-  ; The file that is executed will not be included in the repository, please create the file yourself or use the commented code as an example.
-  ; If you decide to keep the code local to this file opposed to creating another file, remove the run command line and do not use 'ExitApp'.
-  ; ---
-  ; Process, Close, process_name1.exe
-  ; Process, Close, process_name2.exe
-  ; ExitApp
-    Run %A_ScriptDir%\Assets\Development\Hitlist.ahk
+  ; See the wiki for more information on how this works.
+    IfExist, %A_ScriptDir%\Assets\Shortcuts\Hitlist.ahk
+        Run, %A_ScriptDir%\Assets\Shortcuts\Hitlist.ahk
+    IfExist, %A_ScriptDir%\Assets\Development\HitlistDev.ahk
+        Run, %A_ScriptDir%\Assets\Development\HitlistDev.ahk
     Return
 }
 
-Center(winActive) {
+WindowCenter(winActive) {
+; Center the active window on the active or primary monitor.
+; https://www.autohotkey.com/boards/viewtopic.php?t=15501#:~:text=2016%2C%2011%3A52-,Code%3A,-Select%20all%20%2D%20Expand
     winHandle := WinExist("A")
     monHandle := DllCall("MonitorFromWindow", "Ptr", winHandle, "UInt", 0x2)
     VarSetCapacity(monitorInfo, 40), NumPut(40, monitorInfo)
     DllCall("GetMonitorInfo", "Ptr", monHandle, "Ptr", &monitorInfo)
-    workT := NumGet(monitorInfo, 24, "Int")
-    workL := NumGet(monitorInfo, 20, "Int")
-    workR := NumGet(monitorInfo, 28, "Int")
-    workB := NumGet(monitorInfo, 32, "Int")
-    WinRestore, A
-    WinGetPos, PosX, PosY, SizeX, SizeY, A
-    if (winActive) { ; Center active window to active monitor.
+    workT := NumGet(monitorInfo, 24, "Int") ; Get monitor bounding for top.
+    workL := NumGet(monitorInfo, 20, "Int") ; Get monitor bounding for left.
+    workR := NumGet(monitorInfo, 28, "Int") ; Get monitor bounding for right.
+    workB := NumGet(monitorInfo, 32, "Int") ; Get monitor bounding for bottom.
+    WinRestore, A                                       ; Restore the active window.
+    WinGetPos, PosX, PosY, SizeX, SizeY, A              ; Co-ordinates saved to variables.
+    if (winActive) {                                    ; Center active window to active monitor.
         WinMove, A,
-        , workL + (workR - workL) // 2 - SizeX // 2
-        , workT + (workB - workT) // 2 - SizeY // 2
-        Return
-    } else { ; Center active window to the primary monitor.
+        , workL + (workR - workL) // 2 - SizeX // 2     ; Calculate window co-ordinates.
+        , workT + (workB - workT) // 2 - SizeY // 2     ; Calculate window co-ordinates.
+    } else {                                            ; Center active window to the primary monitor.
         WinMove, (A_ScreenWidth/2)-(SizeX/2), (A_ScreenHeight/2)-(SizeY/2)
-        Return
     }
     Return
 }

@@ -47,9 +47,11 @@ if !(FileExist(IniFile)) {
 }
 
 Initialize() {
-        if (I_Active = "true")
+    if (I_Active = "true") {
         Sleep I_Delay
-    ExecuteHitlist(x)
-    Run %A_ScriptDir%\masterfile.ahk
+    }
+    Run, %A_ScriptDir%\masterfile.ahk
+    IfExist, %A_ScriptDir%\Development\Hitlist.ahk
+        ExecuteHitlist(x)
     ExitApp
 }
